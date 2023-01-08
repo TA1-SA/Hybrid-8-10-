@@ -1,0 +1,68 @@
+MCSA windows server ---->microsft certifed :windows server hybrid administrator 
+
+	on-prem  4weeks 
+	azure    2weeks 
+
+win 16/19/22
+
+   -AD 
+	-DNS
+	
+	
+		-DHCp 
+
+
+			-WDS 
+
+			
+				-Wsus
+
+
+
+
+				Group policy
+
+
+
+
+			-ADRMS 
+
+
+		-Troublshooting [overall LAB]
+
+
+	-HA [FC /LB]
+
+
+
+
+####################
+Azure
+####################
+
+-Migration 
+
+-DR
+
+-HA 
+
+-FS 
+
+-VNET
+
+
+
+
+
+======================================================
+Core   		az-800
+
+Advanced	az-801 
+
+
+https://learn.microsoft.com/en-us/certifications/windows-server-hybrid-administrator/
+
+
+
+
+
