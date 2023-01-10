@@ -1,0 +1,68 @@
+########################################
+Lecture 3 
+########################################
+
+**configure Domain controller
+**ipv4 overview
+**ports OverView
+**commands for networking
+
+
+ipv4 classes :
+
+CLASS A
+1st octet 1-126
+
+CLASS B 
+1st otect 128-191
+
+CLASS C
+1st octet
+192-223
+
+2nd ,3rd , 4th 
+0-255 
+        Subnet mask
+class A:255.0.0.0
+16M
+class B:255.255.0.0
+65k
+class c:255.255.255.0
+254
+#####################################
+Domain hirarechy
+#####################################
+departments-->IT ,Sales ,HR   [organizational unit OU]
+users-->2 users per dept
+group==>1 GP  per dept
+
+
+
+############################################
+Problem Section
+############################################
+problem 1 : network GP --we cannt create network gp or user with name network
+
+
+
+problem 2 : statless vs statefull  [firewall]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
