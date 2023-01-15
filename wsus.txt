@@ -1,0 +1,13 @@
+#######################################
+Windows Server Update Service [WSUS]
+#######################################
+Server to install patches on the domain :
+1-Defintion --->database for malwares 
+2-Security--->hot fixes for security bugs
+3-upgrade --->upgrade OS [win10 to win11]
+4-tools ---> MS tools 
+5-critical ---> OS Hot fix 
+6-feature pack
+
+
+Update pushed using group policy [AD] 
