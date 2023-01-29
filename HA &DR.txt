@@ -1,0 +1,27 @@
+####################################################
+High Avaiabiliy & Disaster Recovery
+####################################################
+HADR
+HA ===>referes to system availability 24/7 : Failover cluster 
+DR===>referes to steps done after failure  : Backup 
+
+**Windows Failover cluster : dns name that work with two or more servers to be high available 
+
+**requirments :
+1-domain [Active Directory]
+2-DNS 
+3- [2] servers or more with failover clsutering feature enabled  :
+	a-joined to domain	
+	b- two nic card 
+	c-same windows edition 
+	d-same update level 
+	e-shared storage 
+
+**LAB Steps :
+ 1-create 2 VMS 
+ 2-join to domain
+ 3-configure shared storage [storage team]
+ 4-enable failover cluster feature 
+ 5-configure failover clustering 
+
+ 
