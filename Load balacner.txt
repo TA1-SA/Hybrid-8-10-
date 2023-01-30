@@ -1,0 +1,25 @@
+##################
+Load Balancer
+##################
+
+software or hardware used to distribute traffic over network
+
+lab steps :
+1-create 2 machines called sub-01  sub-02
+2-joined to domain
+3-enabling load balacing feature 
+4-configuration done from powershell 
+
+
+Commands :
+on sub-01 : 
+$Invoke-Command -Computername SUB-01,SUB-02 -command                                                {Install-WindowsFeature NLB,RSAT-NLB,web-server}
+
+$New-NlbCluster -InterfaceName Ethernet0 -OperationMode Multicast -ClusterPrimaryIP 172.16.1.100       -ClusterName abadent-NLB
+
+on DNS  Server :
+ then we must register the cluster name & ip in our DNS  
+
+$Add-NlbClusterNode -InterfaceName Ethernet0 -NewNodeName SUB-02 –NewNodeInterface Ethernet0
+
+
